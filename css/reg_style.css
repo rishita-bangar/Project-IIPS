@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.note{
+    margin-top:20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 8vh;
+    font-size: 25px;
+    font-style: italic;
+    background: rgb(248, 248, 248);
+    color: rgb(39, 35, 97);
+}
+
+.form_container{
+    background: rgba(3, 3, 1, 0.534)url(file:///C:/Users/palash/Desktop/html/.vscode/img/img7.jpg);
+    height: 190vh;
+    overflow-x: hidden;
+    background-blend-mode: darken;
+    background-size: cover;
+    
+}
+
+.h1{
+padding-left: 25px;
+padding-top: 85px;
+color: wheat;
+font-style: italic;
+}
+
+.h5{
+ margin: 25px;
+ color: rgba(235, 119, 12, 0.822);   
+}
+
+.subform{
+    padding-left: 25px;
+    color: wheat;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.col{
+    border: 2px solid white ;
+    padding: 11px;
+    padding-right: 20%;
+    background-color: transparent;
+    border-radius: 30px;
+    color: rgba(105, 243, 232, 0.856);
+    font-size: 17px;
+}
+
+.col:hover{
+    background-color: rgba(204, 194, 194, 0.623);
+}
+
+.lab{
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    
+}
+
+.btnform{
+    position: absolute;
+    left: 30vh;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgba(227, 235, 220, 0.678);
+    color:black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.regbtn{
+    padding-top: 50px;
+}
+
+.btnform:hover{
+    background-color: rgba(25, 41, 11, 0.575);
+    color: rgba(207, 230, 340, 0.66);
+    transition: 0.4s;
+}
+
+.btnform1{
+    position: absolute;
+    left: 30vh;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgba(20, 230, 340, 0.6);
+    color:black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnform1:hover{
+    background-color: rgba(25, 41, 11, 0.575);
+    color: rgba(207, 230, 340, 0.66);
+    transition: 0.4s;
+}
+
+
+
+.close{
+    position: absolute;
+    right: 350px;
+    top: 73px;
+    color: white;
+    background: none;
+    outline: none;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: red;
+}
+
+.btn{
+    padding: 10px;
+    padding-right: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.btn:hover{
+    background-color: rgba(172, 172, 172, 0.274);
+}
+
+
+.btn_a{
+    text-decoration: none;
+    color: rgb(28, 42, 122);
+}
+
+.hr_twin{
+    padding: 0px;
+}
+
+.btn_b{
+    
+    padding: 11px;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    color: rgb(62, 61, 124);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 2px solid rgb(62, 61, 124);
+}
+
+.btn_b:hover{
+  
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px solid rgb(90, 231, 212);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+  
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

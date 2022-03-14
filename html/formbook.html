@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\palash\Desktop\html\.vscode\css\book.css">
+    <title>form_book</title>
+</head>
+<body class="container">
+
+    <h1 class="first" >Enter The Book Details</h1>
+    <p class="para" >*if you want to sell the book than you can enter the book cost and if you does not wants to sell your book than there is no need to enter the book cost because that field is not mandatory, Either you want to exchange your book or sell your book. this is all upto you!*</p>
+
+<form action="http://localhost/form_php/book.php" method="POST">
+
+    <div class="form" > 
+
+    <div>
+        <label class="me" for ="name">Student Name</label>
+        <br><br><input class="col" type ="text" name="name" id ="name" placeholder="Enter Your Name" required>
+    </div>
+<br>
+    <div>
+        <label class="me" for ="book">Book Name</label>
+        <br><br><input class="col" type ="text" name="book" id="book" placeholder="Enter The Book Name" required>
+    </div>
+<br>
+     <div>
+        <label class="me" for ="edition">Book Edition</label>
+        <br><br><input class="col" type ="text" name="edition" id="edition" placeholder="Enter The Book Edition" required>
+     </div>
+<br>
+     <div>
+        <label class="me" for ="subject">Book Subject</label>
+        <br><br><input class="col" type ="text" name="subject" id="subject" placeholder="Enter The Book Subject" required>
+     </div>
+<br>
+      <div>
+        <label class="me" for ="phone">Enter Your Mobile Number</label>
+        <br><br><input class="col" type ="tel" name="phone" id="phone" placeholder="Enter Your Mobile Number" required>
+      </div>
+<br>
+     <div class="tooltip">
+        <label class="me" for ="amount">Enter Amount of The Book</label>
+        <br><br><input class="col" type ="text" name="amount" id="amount" placeholder="Enter Amount">
+        <span class="tooltiptext">*if you want to sell the book than you can enter the book cost and if you does not wants to sell your book than there is no need to enter the book cost because that field is not mandatory, Either you want to exchange your book or sell your book. this is all upto you!*</span>
+     </div>
+<br> 
+<br>
+
+      <div>
+        <input class="btn" type="submit" name="submit" value="submit">
+      </div>
+<br>
+      <div>
+        <input class="btn" type = "reset" value="reset now">
+       </div>
+</form>   
+
+</div>
+  
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\palash\Desktop\html\.vscode\css\reg_style.css">
+  
+    <title>reg_form</title>  
+</head>
+
+<body>
+<div class="form_container">
+    
+       <h1 class="h1">Registration Form</h1>
+      <br><br>
+      
+     <form class="subform" onsubmit="return validate()" action="http://localhost/form_php/sports.php" method="POST">
+
+        <div>
+            <label class="lab" for ="name">Name</label>
+          <br><br><input class="col" type ="text" name="name" id ="name" placeholder="Enter Name" required>
+        </div>
+<br>
+       <div>
+        <label class="lab" for ="program">Program Name</label>
+        <br><br><input class="col" type ="text" name="program" id="program" placeholder="Enter Program Name" required>
+       </div>
+<br>
+     <div>
+      <label class="lab" for ="email">Enter Email ID:</label>
+        <br><br><input class="col" type ="email" name="email" id="email" placeholder="Enter Email Id" required>
+     </div>
+<br>
+     <div>
+      <label class="lab" for ="phone">Enter Mobile No:</label>
+        <br><br><input class="col" type ="tel" name="phone" id="phone" placeholder="Enter your mobile Number" required>
+     </div>
+<br>
+
+<div>
+    <label class="lab" for="sportname">Enter Sports Name:</label>
+    <br><br>
+    <input class="col" type="text" name="sportname" id="sportname" placeholder="Enter Sports name" required>
+</div>
+<br><hr size="3" width="50%" color="black"><br>
+
+      <div>
+        <input class="btn" type="submit" name="submit" value="Submit">
+      </div>
+<br>
+      <div>
+        <input class="btn" type = "reset" value="Reset now">
+      </div>
+
+</form> 
+    
+</div>
+
+<script src="C:\Users\palash\Desktop\html\.vscode\js\samplejs.js"></script>
+</body>
+</html>

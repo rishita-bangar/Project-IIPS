@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mytab{
+    padding: 20px;
+    background: url(file:///C:/Users/palash/Desktop/html/.vscode/img/img6.jpg);
+    background-blend-mode: darken;
+    border-collapse: collapse;
+    font-family: cursive;
+    font-size: 18px;
+}

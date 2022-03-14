@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Comment Box Like On Youtube</title>
+            <link rel="stylesheet" href="C:\Users\palash\Desktop\html\.vscode\css\msg.css">
+            
+        </head>
+        <body>
+           
+            <div class="container"></div>
+            <div class="form_container">
+           <h1 class="head1">DROP YOUR QUESTIONS ;)<hr size="2" width="100%" color="skyblue"></h1>
+           
+                <form action="http://localhost/form_php/msg.php" method="POST">
+            <div>
+                <label class="me" for="name"><b>Enter Name:</b></label>
+                <br><br><input class="col" type="text" placeholder="Enter Username" name="name" required>
+            </div>
+            <br><br>
+            <div>
+                <label class="me" for="email"><b>Enter Email Id:</b></label>
+                <br><br><input class="col" type="email" placeholder="Enter email id" name="email" required>
+            </div>
+             <br>
+             <br>
+            <div>
+                <label class="me" for="text"><b>Drop Question:</b></label>
+                <textarea class="text" name="text" placeholder='Ask your doubt'></textarea>
+                    <div class="btn">
+                        <input type="submit" value='Submit' name="submit">
+                        <button id='clear' value="clear" name="clear">Cancel</button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+            <script src='C:\Users\palash\Desktop\html\.vscode\js\msg.js'></script>    
+        </body>
+    </html>
