@@ -9,4 +9,4 @@ to other students,
 2. Student register any event through this website
 3. All the data given by students will stored in 
 database. 
-
+4. USED: HTML,CSS,JAVASCRIPT AND PHP for connectivity with database.
